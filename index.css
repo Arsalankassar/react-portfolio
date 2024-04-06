@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.app{
+  padding: 20px;
+  width: full;
+  height: 100%;
+}
+.n_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+  .left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+  }
+  .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+  .n_list{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .n_list>ul{
+    display: flex;
+   gap: 2rem;
+   margin-right: 4rem;
+  }
+  .n_list>ul>li:hover{
+    cursor: pointer;
+    color:orange
+  }
+  .btn{
+    text-align: center;
+    padding:.5rem;
+    width: fit-content;
+  }
+  .btn:hover{
+    background:white;
+    cursor: pointer;
+    color: orange;
+    border: 1px solid orange;
+  }
